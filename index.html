@@ -11,6 +11,29 @@
     <div class="score"><a href="highscore.html">Highscores</a></div>
 
     <div class="time">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+      <div id="start-screen" class="start">
+        <h1>Quiz</h1>
+        <p>This is a quiz.</p>
+        <button id="start">Start!</button>
+      </div>
+
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="end-screen" class="hide">
+        <h2>Done</h2>
+        <p>Final score is <span id="final-score"></span>.</p>
+        <p>
+          Initials: <input type="text" id="initials" max="4" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+      <div id="feedback" class="feedback hide"></div>
+    </div>
   </body>
 
   <script src="questions.js"></script>
