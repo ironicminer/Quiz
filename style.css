@@ -1,0 +1,43 @@
+a {
+  color: greenyellow;
+}
+button {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(56, 83, 236);
+  border-radius: 5px;
+  padding: 3px;
+  color: white;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.score {
+  font-size: 300%;
+  background-color: rgb(16, 172, 107);
+  color: white;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 5px;
+}
+.start {
+  font-size: 250%;
+  text-align: center;
+}
+.time {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: blue;
+}
+h1 {
+  font-size: 300%;
+  color: blue;
+  outline: black;
+  outline-width: 4rem;
+  border-radius: 5px;
+}
+ol {
+  color: green;
+}
